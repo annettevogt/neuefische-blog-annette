@@ -1,18 +1,97 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Neuefische-Blog</title>
+    <title>NF-Blog</title>
   </head>
   <body>
     <header>
-      <img src="/img/neuefische-gmbh-logo.svg" alt="Logo neuefische" />
-      <h1>Neuefische-Blog</h1>
+      <img
+        src="/img/neuefische-gmbh-logo.svg"
+        alt="neuefische Logo - School and Pool for digital talent"
+      />
+      <h1>neuefische Blog</h1>
       <nav>
-        <a href="#">Articles</a>
-        <a href="#">Imprint</a>
+        <a href="#articles">Articles</a>
+        <a href="#imprint">Imprint</a>
       </nav>
     </header>
+    <main id="articles">
+      <article>
+        <h2>HTML</h2>
+        <h3>The art of sectioning</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis
+          eius explicabo saepe vitae hic. Voluptatibus quas illo ipsa ullam
+          commodi placeat laborum reiciendis quis rerum labore aperiam
+          aspernatur debitis, cum hic ea ab animi fugit sequi cumque repellat
+          doloribus! Hic labore officiis temporibus voluptatibus expedita velit
+          a minus veritatis harum, laboriosam voluptate molestias, optio nobis
+          facilis sint? Sapiente, esse sequi?
+        </p>
+        <p>
+          Vero saepe maxime exercitationem laudantium nam doloribus iure ipsum
+          quas voluptas ratione minus voluptates eligendi quo qui voluptate,
+          veniam modi aliquid dolorem officiis delectus alias! Excepturi modi
+          assumenda eius vel molestias alias facere, qui placeat veritatis
+          officiis illo corporis tenetur suscipit dolores dolore ad amet
+          delectus totam eos deserunt vero. Tempore molestiae temporibus
+          adipisci consequatur repellendus provident explicabo numquam aperiam?
+        </p>
+        <p>
+          Quod reprehenderit cupiditate distinctio, ipsa, repudiandae eum a
+          dolor quisquam consectetur illo quas nisi aut autem illum voluptas
+          saepe rerum dolorem animi qui exercitationem atque ullam? Nam
+          architecto inventore nihil error maxime impedit optio dicta, magnam
+          eveniet exercitationem officia cum ducimus obcaecati repellendus
+          repudiandae eius doloremque voluptatem nulla quam est, labore in
+          deleniti veritatis vitae? Consectetur beatae earum vero illum.
+        </p>
+        <p>
+          Saepe sequi unde consectetur adipisci repellendus nulla dolores,
+          alias, ullam a quia nesciunt dolorum exercitationem, facere optio
+          itaque earum! Debitis neque fugiat ipsa doloribus, quo corrupti
+          provident velit tempore autem atque est officiis sunt sint reiciendis,
+          alias nihil totam? Rerum possimus, laboriosam debitis quaerat itaque
+          laborum ipsum architecto beatae culpa eveniet modi aperiam quod.
+          Molestias in ea repellendus adipisci laborum!
+        </p>
+        <aside>
+          <h3>Author</h3>
+          <h4>John Doe</h4>
+          <img
+            src="/img/author.jpeg"
+            alt="Joe Doe from behind watching nature"
+          />
+          <ul>
+            <li>
+              <a href="http://" target="_blank" rel="noopener noreferrer"></a>
+            </li>
+            <li>
+              <a href="http://" target="_blank" rel="noopener noreferrer"></a>
+            </li>
+            <li>
+              <a href="http://" target="_blank" rel="noopener noreferrer"></a>
+            </li>
+          </ul>
+        </aside>
+        <section>
+        <form id="commentform">
+          <label for="comment_author" required">Dein Name:</label>
+          <input type="text" name="comment_author" id="comment_author" required="required">
+          <br>
+          <label for="comment" class="required">Dein Kommentar:</label>
+          <br>
+          <textarea name="comment" id="comment" rows="10" cols="40"  required="required"></textarea>
+          <br>
+          <input name="submit" type="submit" value="Senden" />
+        </form>
+        </section>  
+      </article>
+    </main>
+    <footer id="imprint">
+      <p>&copy neuefische GmbH</p>
+    </footer>
   </body>
 </html>
